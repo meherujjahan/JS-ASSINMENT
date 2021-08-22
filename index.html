@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook-pro</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <main class="container mt-4">
+        <div class="row gx-5">
+            <div class="col-5">
+                <img src="mac.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-7">
+                <!-- right side heading -->
+                <header class="mb-4">
+                    <h1>Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-cor GPU, and
+                        16-cor Neural Engine 8Gb unified momery 256Gb ssd storage two thunderbolt/ usb 4 ports Magic
+                        Mouse keyboard-us English</p>
+                </header>
+
+                <!-- memory price button section -->
+                <section class="mb-5">
+                    <div class="mb-4">
+                        <h5>Memory</h5>
+                        <button id="8GbMemory-input" class="btn border">8Gb unified memory</button>
+                        <button id="16GbMemory-input" class="btn border">16Gb unified memory</button>
+                    </div>
+                    <!-- storage price button section -->
+                    <div class="mb-4">
+                        <h5>Storage</h5>
+                        <button id="256storage-input" class="btn border">256gb ssd storage</button>
+                        <button id="512storage-input" class="btn border">512gb ssd storage</button>
+                        <button id="1tbstorage-input" class="btn border">1tb ssd storage</button>
+                    </div>
+                    <!-- delivery cost price section -->
+                    <div class="mb-5">
+                        <h5>Choose your delivery option</h5>
+                        <button id="freeDelivery" class="btn border">Friday Aug 25 Free prime Delivery </button>
+                        <button id="paid-delivery" class="btn border">Friday Aug 21 Delivery charge $20</button>
+
+                    </div>
+                    <!-- amount count section  -->
+                    <div class="row">
+                        <div class="col-7">
+                            <ul class="list-group list-group-flush">
+                                <li class="d-flex justify-content-between list-group-item">
+                                    <h5>Best price</h5>
+                                    <h5>$<span id="best-Price">1299</span></h5>
+                                </li>
+                                <li class="d-flex justify-content-between list-group-item">
+                                    <h5>Extra memory cost</h5>
+                                    <h5>$<span id="memoryCost">0</span></h5>
+                                </li>
+                                <li class="d-flex justify-content-between list-group-item">
+                                    <h5>Extra storage cost</h5>
+                                    <h5>$<span id="storageCost">0</span></h5>
+                                </li>
+                                <li class="d-flex justify-content-between list-group-item "
+                                    style="border-bottom: 2px solid black;">
+                                    <h5>Delivery charge</h5>
+                                    <h5>$<span id="deliveryCost">0</span></h5>
+                                </li>
+                                <!-- total amount count -->
+                                <li class="d-flex justify-content-between list-group-item">
+                                    <h5>Total Price</h5>
+                                    <h5>$<span id="totalAmount">1299</span></h5>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>add promo code</p>
+                            <input id="code-input" disabled type="text"><button id="apply-button"
+                                class="border border-2 rounded"
+                                style="background-color: rgb(182, 32, 114);">Apply</button>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <div class="text-center">
+            <h1>Total: $<span id="bonus-total">1299</span></h1>
+        </div>
+    </main>
+
+
+
+    <!-- javascript link -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
